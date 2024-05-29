@@ -20,6 +20,8 @@ public class Main {
 
         System.out.println("Год публикации книги 2:\n " + book2.getPublicationYear() + "\n");
 
+        book1.setPublicationYear(2026);
+
         System.out.println("Новый год публикации книги 1:\n " + book1.getPublicationYear());
     }
 }
